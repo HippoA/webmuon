@@ -1,0 +1,195 @@
+* {
+    font-family: Helvetica;
+}
+.container{
+    max-width: 100%;
+    height: 37px;
+    margin: 0px;
+}
+#header{
+    background-color:rgb(9, 162, 111);
+}
+nav.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+}
+#main-menu{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding:0;
+    margin:0; 
+    z-index:1;
+}
+#main-menu >li{
+    position:relative;
+    width: 135px;
+    height:95%;  
+}
+#main-menu li a{
+    color:white;
+    display: block;
+    padding: 10px 20px; 
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+#main-menu li:hover{
+    background-color:rgb(50, 219, 163);
+}
+/* --------menu2------------ */
+.btn-admin {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+.btn-admin:hover {
+    background-color:rgb(50, 219, 163); 
+}
+#menu2 input[type="search"] {
+    width: 300px; 
+    border: 1px solid white; 
+    height:27px;
+    margin-top: 6px;
+}
+#menu2 button {
+    border: none;
+    background-color: white; 
+    color: black; 
+    cursor: pointer;
+    height:27px;
+    margin-right: 80px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+#menu2{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding:0;
+    margin:0;  
+}
+/* -------submenu---------- */
+.login-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+.login-btn:hover {
+    background-color:rgb(50, 219, 163); 
+}
+#main-menu ul.sub-menu{
+    position:absolute;
+    background-color: rgb(9, 162, 111);
+    padding:0;
+    list-style: none;
+    width: 135px;
+    display: none;
+    overflow: hidden;
+    z-index: 10;
+}
+#main-menu li:hover ul.sub-menu{
+    display: block;
+}
+#main-menu ul.sub-menu a{
+    padding:8px 15px;
+    text-decoration: none;
+}
+#main-menu ul.sub-menu li:last-child b{
+    border:none;
+}
+/* --------fotter------------ */
+.footer {
+    background-color:  rgb(9, 162, 111);
+    width: 96.5%;
+    height: 270px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+}
+table {
+    margin-top: 10px;
+    border-spacing: 15px;
+    margin-left: 45px;
+    text-align: justify;
+}
+label[name="1924"] {
+    font-weight: bold;
+    font-size: 25px;
+}
+th {
+    text-align: left;
+    font-size: 20px;
+}
+td {
+    font-size: 18px;
+    text-align: left justify;
+    line-height: 1.5;
+    vertical-align: top;
+}
+/* --------------menu2---------------- */
+#menu2 >li{
+    position:relative;
+    width: 170px;
+    height:95%;  
+}
+#menu2 li a{
+    color:white;
+    display: block;
+    padding: 10px 20px; 
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu2 li:hover{
+    background-color:rgb(50, 219, 163);
+}
+#menu2 ul.sub-menu {
+    position: absolute;
+    background-color: rgb(9, 162, 111);
+    padding: 0;
+    list-style: none;
+    display: none;
+    overflow: hidden;
+    z-index: 10;
+}
+#menu2 li:hover ul.sub-menu {
+    display: block;
+}
+
+#menu2 ul.sub-menu a {
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu2 ul.sub-menu li {
+    text-align: center;
+    width: 170px;
+}
+
+#menu2 ul.sub-menu li:hover {
+    background-color: rgb(50, 219, 163);
+}
+.logout {
+    border:none;
+    color: white;
+    font-weight: bold;
+    background:rgb(9,162,111);
+    width: 170px;
+    height:30px;
+    font-size: 15px;
+}
+.logout:hover {
+    background-color: rgb(50, 219, 163);
+}
